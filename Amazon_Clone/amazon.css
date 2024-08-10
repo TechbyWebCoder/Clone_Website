@@ -8,8 +8,7 @@ body {
     height: 100vh;
     font-family: Arial;
 }
-
-/* Header  */
+
 nav {
     height: 60px;
     display: flex;
@@ -215,8 +214,7 @@ nav {
 .nav-options .options p:hover {
     outline: 1px solid white;
 }
-
-/* Main */
+
 main {
     width: min(1500px, 100%);
     position: relative;
@@ -423,14 +421,13 @@ main {
     margin-left: 1rem;
 
 }
-
-/* Small Devices */
+
 @media screen and (max-width: 900px) {
     :root {
         font-size: 2vw;
     }
 
-    /* Header  */
+   
     nav {
         height: 5vw;
     }
@@ -467,7 +464,7 @@ main {
         height: 5vw;
     }
 
-    /* Main */
+   
     .carousel {
         height: 30vw;
     }
